@@ -1,10 +1,16 @@
 /**
  * Definitions and helpers
+ * 
+ * @author jez020
  */
 module.exports = {
-    // Country names object using 2-letter country codes to reference country name
-    // ISO 3166 Alpha-2 Format: [2 letter Country Code]: [Country Name]
-    // Sorted alphabetical by country name (special characters on bottom)
+    /** 
+     * Country names object using 2-letter country codes to reference country name
+     * ISO 3166 Alpha-2 Format: [2 letter Country Code]: [Country Name]
+     * Sorted alphabetical by country name (special characters on bottom)
+     * 
+     * @author jez020
+    */
     countryListAlpha2: {
         "AF": "Afghanistan",
         "AL": "Albania",
@@ -259,6 +265,7 @@ module.exports = {
     /**
      * Check if every item of array is the type
      * 
+     * @author jez020
      * @param {Array} arr The array to check
      * @param {String} type Check the type to check
      * @returns true or false

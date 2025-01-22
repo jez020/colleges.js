@@ -41,16 +41,27 @@ const { countryListAlpha2, isArrayType } = require("./definitions");
 
 /**
  * The College class, containing all the neccessary methods
+ * @author jez020
  */
 class College {
-
-    // Get the original college data in JSON
+    /**
+     * Get the original college data in JSON
+     *
+     * @author Hipo
+     * @memberof College
+     */
     collegeData = require("./collegeData.json");
-    // All the 2 characters country codes
+    /**
+     * All the 2 characters country codes
+     *
+     * @author jez020
+     * @memberof College
+     */
     countryCode = Object.keys(countryListAlpha2).map((key) => key);
 
     /**
      * Creates an instance of College.
+     * @author jez020
      * @memberof College
      */
     constructor(){
@@ -60,6 +71,7 @@ class College {
     /**
      * Get all the colleges based on a country code
      *
+     * @author jez020
      * @param {Array.<CountryCodes>} regionCode an array of 2 letters country codes to 
      * include in the data
      * @memberof College
@@ -96,6 +108,7 @@ class College {
     
     /**
      * Get the colleges with the same name as the input
+     * @author jez020
      * @param {String} name The name of the college, case sensitive
      * @memberof College
      * @returns {Array.<Object>} An array of objects containing the college data
