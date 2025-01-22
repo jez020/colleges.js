@@ -1,6 +1,6 @@
 {
   "name": "colleges.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A module that gives data about colleges around the world",
   "keywords": [
     "colleges",
