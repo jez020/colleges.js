@@ -1,5 +1,5 @@
 {
-  "name": "@jez020/colleges.js",
+  "name": "colleges.js",
   "version": "1.0.0",
   "description": "A module that gives data about colleges around the world",
   "keywords": [
@@ -19,6 +19,10 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "test": "node test.js"
+    "test": "node test.js",
+    "prod": "jsdoc -d docs --configure jsdocConf.json"
+  },
+  "devDependencies": {
+    "jsdoc": "^4.0.4"
   }
 }
