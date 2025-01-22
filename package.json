@@ -20,7 +20,7 @@
   "main": "index.js",
   "scripts": {
     "test": "node test.js",
-    "prod": "jsdoc -d docs --configure jsdocConf.json"
+    "createDoc": "jsdoc -d docs --configure jsdocConf.json"
   },
   "devDependencies": {
     "jsdoc": "^4.0.4"

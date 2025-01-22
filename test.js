@@ -6,4 +6,4 @@ let college = new Colleges();
 console.log(college.getRegion(["US"]))
 
 // get Specific College
-console.log(college.getCollege())
+// console.log(college.getCollege())
