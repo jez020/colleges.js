@@ -1,0 +1,24 @@
+{
+  "name": "@jez020/colleges.js",
+  "version": "1.0.0",
+  "description": "A module that gives data about colleges around the world",
+  "keywords": [
+    "colleges",
+    "college"
+  ],
+  "homepage": "https://github.com/jez020/colleges.js#readme",
+  "bugs": {
+    "url": "https://github.com/jez020/colleges.js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jez020/colleges.js.git"
+  },
+  "license": "MIT",
+  "author": "Jerry Zhang",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  }
+}
