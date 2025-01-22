@@ -24,5 +24,8 @@
   },
   "devDependencies": {
     "jsdoc": "^4.0.4"
+  },
+  "dependencies": {
+    "docdash": "^2.0.2"
   }
 }
