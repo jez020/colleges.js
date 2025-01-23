@@ -61,8 +61,11 @@ declare class College {
      */
     countryCode: string[];
     /**
-     * Creates an instance of College.
+     * Initiates an instance of College
+     *
      * @author jez020
+     * @param {collegeDataInterface} customCollegeData Custom college data,
+     * defaults to the built in json.
      */
     constructor(customCollegeData?: collegeDataInterface);
     /**
