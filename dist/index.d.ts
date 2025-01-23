@@ -81,14 +81,14 @@ declare class College {
      * @returns {collegeDataInterface} Returns an array of colleges
      * belonging to the countries provided
      */
-    getRegion(regionCode?: string[]): any[];
+    getRegion(regionCode?: string[]): collegeDataInterface;
     /**
      * Get the colleges with the same name as the input
      * @author jez020
      * @param {String} name The name of the college, case sensitive
      * @returns {collegeDataInterface} An array of objects containing the college data
      */
-    getCollege(name?: string): any[];
+    getCollege(name?: string): collegeDataInterface;
 }
 
 export { College };
