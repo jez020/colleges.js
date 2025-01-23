@@ -5,9 +5,8 @@
  */
 
     /** 
-     * Country names object using 2-letter country codes to reference country name
-     * ISO 3166 Alpha-2 Format: [2 letter Country Code]: [Country Name]
-     * Sorted alphabetical by country name (special characters on bottom)
+     * Country names object using 2-letter country codes to reference country 
+     * name. Country code is in ISO 3166 Alpha-2 format.
      * 
      * @author jez020
     */

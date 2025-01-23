@@ -81552,7 +81552,7 @@ var College = class {
    * @author jez020
    * @param {Array.<CountryCodes>} regionCode an array of 2 letters country 
    * codes to include in the data
-   * @returns {collegeDataInterface[]} Returns an array of colleges 
+   * @returns {collegeDataInterface} Returns an array of colleges 
    * belonging to the countries provided
    */
   getRegion(regionCode = ["US"]) {
@@ -81575,7 +81575,7 @@ var College = class {
    * Get the colleges with the same name as the input
    * @author jez020
    * @param {String} name The name of the college, case sensitive
-   * @returns {collegeDataInterface[]} An array of objects containing the college data
+   * @returns {collegeDataInterface} An array of objects containing the college data
    */
   getCollege(name = "University of California, San Diego") {
     if (typeof name != "string") throw new TypeError("The college name must be a string. Received: " + typeof name);

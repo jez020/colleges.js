@@ -1,3 +1,7 @@
+/**
+ * Schema for the collegeData inteface. Every college data object should
+ * follow this interface template
+ */
 export type collegeDataInterface = {
     "name": string,
     "domains": string[],
