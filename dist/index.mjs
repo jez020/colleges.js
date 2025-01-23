@@ -1,78 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    
-    <meta charset="utf-8">
-    <title>index.js - Documentation</title>
-    
-    
-    <script src="scripts/prettify/prettify.js"></script>
-    <script src="scripts/prettify/lang-css.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
-    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
-    <script src="scripts/nav.js" defer></script>
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-
-<input type="checkbox" id="nav-trigger" class="nav-trigger" />
-<label for="nav-trigger" class="navicon-button x">
-  <div class="navicon"></div>
-</label>
-
-<label for="nav-trigger" class="overlay"></label>
-
-<nav >
-    
-    <input type="text" id="nav-search" placeholder="Search" />
-    
-    
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="College.College.html">College</a></li></ul>
-    
-</nav>
-
-<div id="main">
-    
-    <h1 class="page-title">index.js</h1>
-    
-
-    
-
-
-
-    
-    <section>
-        <article>
-            <pre class="prettyprint source linenums"><code>"use strict";
-var __defProp = Object.defineProperty;
-var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
-var __getOwnPropNames = Object.getOwnPropertyNames;
-var __hasOwnProp = Object.prototype.hasOwnProperty;
-var __export = (target, all) => {
-  for (var name in all)
-    __defProp(target, name, { get: all[name], enumerable: true });
-};
-var __copyProps = (to, from, except, desc) => {
-  if (from &amp;&amp; typeof from === "object" || typeof from === "function") {
-    for (let key of __getOwnPropNames(from))
-      if (!__hasOwnProp.call(to, key) &amp;&amp; key !== except)
-        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
-  }
-  return to;
-};
-var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
-
-// src/index.ts
-var index_exports = {};
-__export(index_exports, {
-  default: () => index_default
-});
-module.exports = __toCommonJS(index_exports);
-
 // src/definitions.ts
 var countryListAlpha2 = {
   "AF": "Afghanistan",
@@ -570,7 +495,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.davietjal.org/"],
-    name: "DAV Institute of Engineering &amp; Technology",
+    name: "DAV Institute of Engineering & Technology",
     alpha_two_code: "IN",
     "state-province": "Punjab",
     domains: ["davietjal.org"],
@@ -1178,7 +1103,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.washjeff.edu/"],
-    name: "Washington &amp; Jefferson College",
+    name: "Washington & Jefferson College",
     alpha_two_code: "US",
     "state-province": null,
     domains: ["washjeff.edu"],
@@ -1434,7 +1359,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.msbcollege.edu/"],
-    name: "Globe University &amp; Minnesota School of Business",
+    name: "Globe University & Minnesota School of Business",
     alpha_two_code: "US",
     "state-province": null,
     domains: ["msbcollege.edu"],
@@ -1602,7 +1527,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.aamu.edu/"],
-    name: "Alabama A&amp;M University",
+    name: "Alabama A&M University",
     alpha_two_code: "US",
     "state-province": null,
     domains: ["aamu.edu"],
@@ -3346,7 +3271,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.dne.wvnet.edu/"],
-    name: "Davis &amp; Elkins College",
+    name: "Davis & Elkins College",
     alpha_two_code: "US",
     "state-province": null,
     domains: ["dne.wvnet.edu"],
@@ -3690,7 +3615,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["https://www.ehc.edu/"],
-    name: "Emory &amp; Henry College",
+    name: "Emory & Henry College",
     alpha_two_code: "US",
     "state-province": "VA",
     domains: ["ehc.edu"],
@@ -4682,7 +4607,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.jwu.edu/"],
-    name: "Johnson &amp; Wales University",
+    name: "Johnson & Wales University",
     alpha_two_code: "US",
     "state-province": null,
     domains: ["jwu.edu"],
@@ -4794,7 +4719,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.kctcs.edu/"],
-    name: "Kentucky Community &amp; Technical College System",
+    name: "Kentucky Community & Technical College System",
     alpha_two_code: "US",
     "state-province": null,
     domains: ["kctcs.edu"],
@@ -4986,7 +4911,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.lclark.edu/"],
-    name: "Lewis &amp; Clark College",
+    name: "Lewis & Clark College",
     alpha_two_code: "US",
     "state-province": null,
     domains: ["lclark.edu"],
@@ -5890,7 +5815,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.nmt.edu/"],
-    name: "New Mexico Institute of Mining &amp; Technology",
+    name: "New Mexico Institute of Mining & Technology",
     alpha_two_code: "US",
     "state-province": null,
     domains: ["nmt.edu"],
@@ -5962,7 +5887,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.ncat.edu/"],
-    name: "North Carolina A&amp;T State University",
+    name: "North Carolina A&T State University",
     alpha_two_code: "US",
     "state-province": null,
     domains: ["ncat.edu"],
@@ -6538,7 +6463,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.pvamu.edu/"],
-    name: "Prairie View A&amp;M University",
+    name: "Prairie View A&M University",
     alpha_two_code: "US",
     "state-province": null,
     domains: ["pvamu.edu"],
@@ -7330,7 +7255,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.subr.edu/"],
-    name: "Southern University and A&amp;M College",
+    name: "Southern University and A&M College",
     alpha_two_code: "US",
     "state-province": null,
     domains: ["subr.edu"],
@@ -7855,7 +7780,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.tamiu.edu/"],
-    name: "Texas A&amp;M International University",
+    name: "Texas A&M International University",
     alpha_two_code: "US",
     "state-province": null,
     domains: ["tamiu.edu"],
@@ -7863,7 +7788,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.tamu.edu/"],
-    name: "Texas A&amp;M University - College Station",
+    name: "Texas A&M University - College Station",
     alpha_two_code: "US",
     "state-province": null,
     domains: ["tamu.edu"],
@@ -7871,7 +7796,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.tamuc.edu/"],
-    name: "Texas A&amp;M University - Commerce",
+    name: "Texas A&M University - Commerce",
     alpha_two_code: "US",
     "state-province": null,
     domains: ["tamuc.edu"],
@@ -7879,7 +7804,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.tamucc.edu/"],
-    name: "Texas A&amp;M University - Corpus Christi",
+    name: "Texas A&M University - Corpus Christi",
     alpha_two_code: "US",
     "state-province": null,
     domains: ["tamucc.edu"],
@@ -7887,7 +7812,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.tamuk.edu/"],
-    name: "Texas A&amp;M University - Kingsville",
+    name: "Texas A&M University - Kingsville",
     alpha_two_code: "US",
     "state-province": null,
     domains: ["tamuk.edu"],
@@ -9263,7 +9188,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://usao.edu/"],
-    name: "University of Science &amp; Arts of Oklahoma",
+    name: "University of Science & Arts of Oklahoma",
     alpha_two_code: "US",
     "state-province": null,
     domains: ["usao.edu"],
@@ -9943,7 +9868,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.wlu.edu/"],
-    name: "Washington &amp; Lee University",
+    name: "Washington & Lee University",
     alpha_two_code: "US",
     "state-province": null,
     domains: ["wlu.edu"],
@@ -10239,7 +10164,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.wtamu.edu/"],
-    name: "West Texas A&amp;M University",
+    name: "West Texas A&M University",
     alpha_two_code: "US",
     "state-province": null,
     domains: ["wtamu.edu"],
@@ -13199,7 +13124,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.aust.edu/"],
-    name: "Ahsanullah University of Science &amp; Technology",
+    name: "Ahsanullah University of Science & Technology",
     alpha_two_code: "BD",
     "state-province": null,
     domains: ["aust.edu"],
@@ -13263,7 +13188,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.bubt.edu.bd/"],
-    name: "Bangladesh University of Business &amp; Technology",
+    name: "Bangladesh University of Business & Technology",
     alpha_two_code: "BD",
     "state-province": null,
     domains: ["bubt.edu.bd"],
@@ -13719,7 +13644,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.uits.edu.bd/"],
-    name: "University of Information Technology &amp; Sciences",
+    name: "University of Information Technology & Sciences",
     alpha_two_code: "BD",
     "state-province": null,
     domains: ["uits.edu.bd"],
@@ -13751,7 +13676,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.ustc.ac.bd/"],
-    name: "University of Science &amp; Technology Chittagong",
+    name: "University of Science & Technology Chittagong",
     alpha_two_code: "BD",
     "state-province": null,
     domains: ["ustc.ac.bd"],
@@ -14375,7 +14300,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.wenk.be/"],
-    name: "Hogeschool voor Wetenschap &amp; Kunst",
+    name: "Hogeschool voor Wetenschap & Kunst",
     alpha_two_code: "BE",
     "state-province": null,
     domains: ["wenk.be"],
@@ -14879,7 +14804,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.biust.ac.bw/"],
-    name: "Botswana International University of Science &amp; Technology",
+    name: "Botswana International University of Science & Technology",
     alpha_two_code: "BW",
     "state-province": null,
     domains: ["biust.ac.bw"],
@@ -14903,7 +14828,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.neweracollege.ac.bw/"],
-    name: "New Era College of Arts, Science &amp; Technology",
+    name: "New Era College of Arts, Science & Technology",
     alpha_two_code: "BW",
     "state-province": null,
     domains: ["neweracollege.ac.bw"],
@@ -16815,7 +16740,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.bamendauniversity.com/"],
-    name: "Bamenda University of Science &amp; Technology",
+    name: "Bamenda University of Science & Technology",
     alpha_two_code: "CM",
     "state-province": null,
     domains: ["bamendauniversity.com"],
@@ -17039,7 +16964,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.ccbc.ca/"],
-    name: "Canadian College of Business &amp; Computers",
+    name: "Canadian College of Business & Computers",
     alpha_two_code: "CA",
     "state-province": "Ontario",
     domains: ["ccbc.ca"],
@@ -19311,7 +19236,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.gdrtvu.edu.cn/"],
-    name: "Guangdong Radio &amp; TV University",
+    name: "Guangdong Radio & TV University",
     alpha_two_code: "CN",
     "state-province": null,
     domains: ["gdrtvu.edu.cn"],
@@ -19599,7 +19524,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.hhstu.edu.cn/"],
-    name: "Huanghe Science &amp; Technology University",
+    name: "Huanghe Science & Technology University",
     alpha_two_code: "CN",
     "state-province": null,
     domains: ["hhstu.edu.cn"],
@@ -19703,7 +19628,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.hrbucea.edu.cn/"],
-    name: "Harbin University of Civil Engineering &amp; Architecture",
+    name: "Harbin University of Civil Engineering & Architecture",
     alpha_two_code: "CN",
     "state-province": null,
     domains: ["hrbucea.edu.cn"],
@@ -20239,7 +20164,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.nwau.edu.cn/"],
-    name: "Northwest A&amp;F University",
+    name: "Northwest A&F University",
     alpha_two_code: "CN",
     "state-province": null,
     domains: ["nwau.edu.cn"],
@@ -20343,7 +20268,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.qhrtvu.edu.cn/"],
-    name: "Qinghai Radio &amp; Television University",
+    name: "Qinghai Radio & Television University",
     alpha_two_code: "CN",
     "state-province": null,
     domains: ["qhrtvu.edu.cn"],
@@ -20999,7 +20924,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.tjufe.edu.cn/"],
-    name: "Tianjin University of Finance &amp; Economics",
+    name: "Tianjin University of Finance & Economics",
     alpha_two_code: "CN",
     "state-province": null,
     domains: ["tjufe.edu.cn"],
@@ -21495,7 +21420,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.ytet.edu.cn/"],
-    name: "Yantai Education Institute &amp; Yantai Television University",
+    name: "Yantai Education Institute & Yantai Television University",
     alpha_two_code: "CN",
     "state-province": null,
     domains: ["ytet.edu.cn"],
@@ -23783,7 +23708,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.udoym.edu.do/"],
-    name: "Universidad Dominicana O&amp;M",
+    name: "Universidad Dominicana O&M",
     alpha_two_code: "DO",
     "state-province": null,
     domains: ["udoym.edu.do"],
@@ -24263,7 +24188,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.aast.edu/"],
-    name: "Arab Academy for Science &amp; Technology",
+    name: "Arab Academy for Science & Technology",
     alpha_two_code: "EG",
     "state-province": null,
     domains: ["aast.edu"],
@@ -24455,7 +24380,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.msa.eun.eg/"],
-    name: "Modern Sciences &amp; Arts University",
+    name: "Modern Sciences & Arts University",
     alpha_two_code: "EG",
     "state-province": null,
     domains: ["msa.eun.eg"],
@@ -24887,7 +24812,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.aastu.org/"],
-    name: "Addis Ababa Science &amp; Technology University",
+    name: "Addis Ababa Science & Technology University",
     alpha_two_code: "ET",
     "state-province": null,
     domains: ["aastu.org"],
@@ -25607,7 +25532,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.ecam.fr/"],
-    name: "Ecole Catholique d'Arts &amp; Metiers",
+    name: "Ecole Catholique d'Arts & Metiers",
     alpha_two_code: "FR",
     "state-province": null,
     domains: ["ecam.fr"],
@@ -30242,7 +30167,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["https://www.dei.edu.gr/"],
-    name: "DEI Bachelor &amp; Master Degrees",
+    name: "DEI Bachelor & Master Degrees",
     alpha_two_code: "GR",
     "state-province": "Macedonia",
     domains: ["dei.edu.gr"],
@@ -31386,7 +31311,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.aryainstitutejpr.com/"],
-    name: "ARYA Institute of Engineering &amp; Technology",
+    name: "ARYA Institute of Engineering & Technology",
     alpha_two_code: "IN",
     "state-province": "Rajasthan",
     domains: ["aryainstitutejpr.com"],
@@ -31506,7 +31431,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.bharathuniv.com/"],
-    name: "Bharath Institue Of Higher Education &amp; Research",
+    name: "Bharath Institue Of Higher Education & Research",
     alpha_two_code: "IN",
     "state-province": "Tamil Nadu",
     domains: ["bharathuniv.com"],
@@ -33554,7 +33479,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.riths.ac.in/"],
-    name: "Rajitlal Institute of Technology &amp; Health Sciences (RITHS)",
+    name: "Rajitlal Institute of Technology & Health Sciences (RITHS)",
     alpha_two_code: "IN",
     "state-province": null,
     domains: ["riths.ac.in"],
@@ -33826,7 +33751,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.srmuniv.ac.in/"],
-    name: "SRM Institute Of Science &amp; Technology",
+    name: "SRM Institute Of Science & Technology",
     alpha_two_code: "IN",
     "state-province": "Tamil Nadu",
     domains: ["srmuniv.ac.in"],
@@ -34338,7 +34263,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.akprind.ac.id/"],
-    name: "Institut Sains &amp; Teknologi Akprind",
+    name: "Institut Sains & Teknologi Akprind",
     alpha_two_code: "ID",
     "state-province": null,
     domains: ["akprind.ac.id"],
@@ -35842,7 +35767,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["https://www.acmt.ac.ir/"],
-    name: "Amirkabir College of Management &amp; Technology",
+    name: "Amirkabir College of Management & Technology",
     alpha_two_code: "IR",
     "state-province": "Tehran",
     domains: ["acmt.ac.ir"],
@@ -36074,7 +35999,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.fsriau.ac.ir/"],
-    name: "Islamic Azad University, Fars Science &amp; Research Branch",
+    name: "Islamic Azad University, Fars Science & Research Branch",
     alpha_two_code: "IR",
     "state-province": "Fars",
     domains: ["fsriau.ac.ir"],
@@ -37058,7 +36983,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.srbiau.ac.ir/"],
-    name: "Islamic Azad University, Tehran Science &amp; Research Branch",
+    name: "Islamic Azad University, Tehran Science & Research Branch",
     alpha_two_code: "IR",
     "state-province": "Tehran",
     domains: ["srbiau.ac.ir"],
@@ -37290,7 +37215,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.ustmb.ac.ir/"],
-    name: "Mazandaran University of Science &amp; Technology",
+    name: "Mazandaran University of Science & Technology",
     alpha_two_code: "IR",
     "state-province": "Mazandaran",
     domains: ["ustmb.ac.ir"],
@@ -38070,7 +37995,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.shenkar.ac.il/"],
-    name: "Shenkar School of Engineering &amp; Design",
+    name: "Shenkar School of Engineering & Design",
     alpha_two_code: "IL",
     "state-province": null,
     domains: ["shenkar.ac.il"],
@@ -38902,7 +38827,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.aichi-fam-u.ac.jp/"],
-    name: "Aichi Prefectural University of Fine Arts &amp; Music",
+    name: "Aichi Prefectural University of Fine Arts & Music",
     alpha_two_code: "JP",
     "state-province": null,
     domains: ["aichi-fam-u.ac.jp"],
@@ -39198,7 +39123,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.chubu-gu.ac.jp/"],
-    name: "Chubu Gakuin University &amp; Chubu Women's College",
+    name: "Chubu Gakuin University & Chubu Women's College",
     alpha_two_code: "JP",
     "state-province": null,
     domains: ["chubu-gu.ac.jp"],
@@ -40326,7 +40251,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.keiho-u.ac.jp/"],
-    name: "Osaka University of Economics &amp; Law",
+    name: "Osaka University of Economics & Law",
     alpha_two_code: "JP",
     "state-province": null,
     domains: ["keiho-u.ac.jp"],
@@ -42078,7 +42003,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.seian.ac.jp/"],
-    name: "Seian University of Art &amp; Design",
+    name: "Seian University of Art & Design",
     alpha_two_code: "JP",
     "state-province": null,
     domains: ["seian.ac.jp"],
@@ -43614,7 +43539,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.wise.edu.jo/"],
-    name: "The World Islamic Sciences &amp; Education University",
+    name: "The World Islamic Sciences & Education University",
     alpha_two_code: "JO",
     "state-province": null,
     domains: ["wise.edu.jo"],
@@ -45158,7 +45083,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.kaist.ac.kr/"],
-    name: "Korea Advanced Institute of Science &amp; Technology",
+    name: "Korea Advanced Institute of Science & Technology",
     alpha_two_code: "KR",
     "state-province": null,
     domains: ["kaist.ac.kr", "kaist.edu"],
@@ -46702,7 +46627,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.hu.edu.lb/"],
-    name: "Business &amp; Computer University College",
+    name: "Business & Computer University College",
     alpha_two_code: "LB",
     "state-province": null,
     domains: ["hu.edu.lb"],
@@ -47342,7 +47267,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.binary.edu.my/"],
-    name: "Binary University College of Managemant &amp; Entrepreneurship",
+    name: "Binary University College of Managemant & Entrepreneurship",
     alpha_two_code: "MY",
     "state-province": null,
     domains: ["binary.edu.my"],
@@ -48206,7 +48131,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.ucti.edu.my/"],
-    name: "University College of Technology &amp; Innovation (UCTI)",
+    name: "University College of Technology & Innovation (UCTI)",
     alpha_two_code: "MY",
     "state-province": null,
     domains: ["ucti.edu.my"],
@@ -52190,7 +52115,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.omancollege.edu.om/"],
-    name: "Oman College Of Management &amp; Technology",
+    name: "Oman College Of Management & Technology",
     alpha_two_code: "OM",
     "state-province": null,
     domains: ["omancollege.edu.om"],
@@ -52342,7 +52267,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.buitms.edu.pk/"],
-    name: "Balochistan University of Information Technology &amp; Management Sciences",
+    name: "Balochistan University of Information Technology & Management Sciences",
     alpha_two_code: "PK",
     "state-province": "Balochistan",
     domains: ["buitms.edu.pk"],
@@ -52358,7 +52283,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["https://cust.edu.pk/"],
-    name: "Capital University of Science &amp; Technology",
+    name: "Capital University of Science & Technology",
     alpha_two_code: "PK",
     "state-province": "Islamabad",
     domains: ["cust.edu.pk"],
@@ -52526,7 +52451,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.giki.edu.pk/"],
-    name: "Ghulam Ishaq Khan Institute of Science &amp; Technology",
+    name: "Ghulam Ishaq Khan Institute of Science & Technology",
     alpha_two_code: "PK",
     "state-province": null,
     domains: ["giki.edu.pk"],
@@ -52534,7 +52459,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.gist.edu.pk/"],
-    name: "Gangdara Institute Of Science &amp; Technology",
+    name: "Gangdara Institute Of Science & Technology",
     alpha_two_code: "PK",
     "state-province": null,
     domains: ["gist.edu.pk"],
@@ -52750,7 +52675,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.lumhs.edu.pk/"],
-    name: "Liaquat University of Medical &amp; Health Sciences Jamshoro",
+    name: "Liaquat University of Medical & Health Sciences Jamshoro",
     alpha_two_code: "PK",
     "state-province": null,
     domains: ["lumhs.edu.pk"],
@@ -52782,7 +52707,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.muet.edu.pk/"],
-    name: "Mehran University of Engineering &amp; Technology",
+    name: "Mehran University of Engineering & Technology",
     alpha_two_code: "PK",
     "state-province": null,
     domains: ["muet.edu.pk"],
@@ -52838,7 +52763,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.newports.edu.pk/"],
-    name: "Newports Institute of Communication &amp; Economics",
+    name: "Newports Institute of Communication & Economics",
     alpha_two_code: "PK",
     "state-province": null,
     domains: ["newports.edu.pk"],
@@ -52918,7 +52843,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["https://quest.edu.pk/"],
-    name: "Qauid-e-Awam University of Engineering Sciences &amp; Technology",
+    name: "Qauid-e-Awam University of Engineering Sciences & Technology",
     alpha_two_code: "PK",
     "state-province": null,
     domains: ["quest.edu.pk"],
@@ -53054,7 +52979,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.suit.edu.pk/"],
-    name: "Sarhad University of Science &amp; Information Technology, Peshawar",
+    name: "Sarhad University of Science & Information Technology, Peshawar",
     alpha_two_code: "PK",
     "state-province": null,
     domains: ["suit.edu.pk"],
@@ -53238,7 +53163,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.ustb.edu.pk/"],
-    name: "University of Science &amp; Technology Bannu",
+    name: "University of Science & Technology Bannu",
     alpha_two_code: "PK",
     "state-province": null,
     domains: ["ustb.edu.pk"],
@@ -53246,7 +53171,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.uvas.edu.pk/"],
-    name: "University of Veterinary &amp; Animal Science",
+    name: "University of Veterinary & Animal Science",
     alpha_two_code: "PK",
     "state-province": "Panjab",
     domains: ["uvas.edu.pk"],
@@ -59902,7 +59827,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.kist.ac.rw/"],
-    name: "Kigali Institute of Science &amp; Technology",
+    name: "Kigali Institute of Science & Technology",
     alpha_two_code: "RW",
     "state-province": null,
     domains: ["kist.ac.rw"],
@@ -60094,7 +60019,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.cti.edu.sa/"],
-    name: "College of Telecommunication &amp; Information",
+    name: "College of Telecommunication & Information",
     alpha_two_code: "SA",
     "state-province": "Riyadh",
     domains: ["cti.edu.sa"],
@@ -62374,7 +62299,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.vpa.ac.lk/"],
-    name: "University of the Visual &amp; Performing Arts",
+    name: "University of the Visual & Performing Arts",
     alpha_two_code: "LK",
     "state-province": null,
     domains: ["vpa.ac.lk"],
@@ -62438,7 +62363,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.bayantech.edu/"],
-    name: "Bayan College for Science &amp; Technology",
+    name: "Bayan College for Science & Technology",
     alpha_two_code: "SD",
     "state-province": null,
     domains: ["bayantech.edu"],
@@ -62478,7 +62403,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.elrazicollege.net/"],
-    name: "Elrazi College Of Medical &amp; Technological Sciences",
+    name: "Elrazi College Of Medical & Technological Sciences",
     alpha_two_code: "SD",
     "state-province": null,
     domains: ["elrazicollege.net"],
@@ -62510,7 +62435,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.hibfs.edu.sd/"],
-    name: "High Institute for Banking &amp; Financial Studies",
+    name: "High Institute for Banking & Financial Studies",
     alpha_two_code: "SD",
     "state-province": null,
     domains: ["hibfs.edu.sd"],
@@ -62638,7 +62563,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.umst-edu.com/"],
-    name: "University Of Medical Sciences &amp; Technology (UMST)",
+    name: "University Of Medical Sciences & Technology (UMST)",
     alpha_two_code: "SD",
     "state-province": null,
     domains: ["umst-edu.com"],
@@ -63030,7 +62955,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.dct.ch/"],
-    name: "DCT International Hotel &amp; Business Management School",
+    name: "DCT International Hotel & Business Management School",
     alpha_two_code: "CH",
     "state-province": null,
     domains: ["dct.ch"],
@@ -63038,7 +62963,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.egs.edu/"],
-    name: "European Graduate School, Media &amp; Communications",
+    name: "European Graduate School, Media & Communications",
     alpha_two_code: "CH",
     "state-province": null,
     domains: ["egs.edu"],
@@ -63646,7 +63571,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.iust.edu.sy/"],
-    name: "International University for Science &amp; Technology",
+    name: "International University for Science & Technology",
     alpha_two_code: "SY",
     "state-province": null,
     domains: ["iust.edu.sy"],
@@ -63662,7 +63587,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.siust.edu.sy/"],
-    name: "Syrian International Private University for Science &amp; Technology",
+    name: "Syrian International Private University for Science & Technology",
     alpha_two_code: "SY",
     "state-province": null,
     domains: ["siust.edu.sy"],
@@ -63766,7 +63691,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.cku.edu.tw/"],
-    name: "Ching Kuo Institue of Management &amp; Health",
+    name: "Ching Kuo Institue of Management & Health",
     alpha_two_code: "TW",
     "state-province": null,
     domains: ["cku.edu.tw"],
@@ -64262,7 +64187,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.sjsmit.edu.tw/"],
-    name: "St. John's &amp; St. Mary's Institute of Technology",
+    name: "St. John's & St. Mary's Institute of Technology",
     alpha_two_code: "TW",
     "state-province": null,
     domains: ["sjsmit.edu.tw"],
@@ -64446,7 +64371,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.imtu.edu/index.htm"],
-    name: "International Medical &amp; Technological University",
+    name: "International Medical & Technological University",
     alpha_two_code: "TZ",
     "state-province": null,
     domains: ["imtu.edu"],
@@ -66942,7 +66867,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.rakmhsu.com/"],
-    name: "Rak Medical &amp; Health Sciences University",
+    name: "Rak Medical & Health Sciences University",
     alpha_two_code: "AE",
     "state-province": null,
     domains: ["rakmhsu.com"],
@@ -67302,7 +67227,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.csm.linst.ac.uk/"],
-    name: "Central Saint Martins College of Art &amp; Design",
+    name: "Central Saint Martins College of Art & Design",
     alpha_two_code: "GB",
     "state-province": null,
     domains: ["csm.linst.ac.uk"],
@@ -67614,7 +67539,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.lcst.ac/"],
-    name: "London College of Science &amp; Technology",
+    name: "London College of Science & Technology",
     alpha_two_code: "GB",
     "state-province": null,
     domains: ["lcst.ac"],
@@ -67702,7 +67627,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.lsbf.org.uk/"],
-    name: "London School of Business &amp; Finance",
+    name: "London School of Business & Finance",
     alpha_two_code: "GB",
     "state-province": null,
     domains: ["lsbf.org.uk"],
@@ -67718,7 +67643,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.lshtm.ac.uk/"],
-    name: "London School of Hygiene &amp; Tropical Medicine, University of London",
+    name: "London School of Hygiene & Tropical Medicine, University of London",
     alpha_two_code: "GB",
     "state-province": null,
     domains: ["lshtm.ac.uk"],
@@ -69158,7 +69083,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.ptit.edu.vn/"],
-    name: "Posts &amp; Telecommunications Institute of Technology",
+    name: "Posts & Telecommunications Institute of Technology",
     alpha_two_code: "VN",
     "state-province": null,
     domains: ["ptit.edu.vn"],
@@ -73614,7 +73539,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.alextech.edu"],
-    name: "Alexandria Technical &amp; Community College",
+    name: "Alexandria Technical & Community College",
     alpha_two_code: "US",
     "state-province": null,
     domains: ["alextech.edu"],
@@ -74102,7 +74027,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.wma.edu"],
-    name: "Wentworth Military Academy &amp; Junior College",
+    name: "Wentworth Military Academy & Junior College",
     alpha_two_code: "US",
     "state-province": null,
     domains: ["wma.edu"],
@@ -75670,7 +75595,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["http://www.neo.edu"],
-    name: "Northeastern Oklahoma A&amp;M College",
+    name: "Northeastern Oklahoma A&M College",
     alpha_two_code: "US",
     "state-province": null,
     domains: ["neo.edu"],
@@ -77590,7 +77515,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["https://trinitybiblecollege.edu"],
-    name: "Trinity Bible College &amp; Graduate School",
+    name: "Trinity Bible College & Graduate School",
     alpha_two_code: "US",
     "state-province": "ND",
     domains: ["trinitybiblecollege.edu"],
@@ -78633,7 +78558,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["https://www.esade.edu/en/about-us/law-school"],
-    name: "ESADE Business &amp; Law School",
+    name: "ESADE Business & Law School",
     alpha_two_code: "ES",
     "state-province": null,
     domains: ["esade.edu"],
@@ -78657,7 +78582,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["https://exed.solvay.edu/fr/"],
-    name: "Solvay Brussels School Economics &amp; Management",
+    name: "Solvay Brussels School Economics & Management",
     alpha_two_code: "BE",
     "state-province": null,
     domains: ["exed.solvay.edu"],
@@ -79185,7 +79110,7 @@ var collegeData_default = [
   },
   {
     "state-province": null,
-    name: "Frankfurt School of Finance &amp; Management",
+    name: "Frankfurt School of Finance & Management",
     country: "Germany",
     web_pages: ["https://www.frankfurt-school.de/"],
     domains: ["fs.de", "fs-students.de"],
@@ -79196,7 +79121,7 @@ var collegeData_default = [
     country: "Portugal",
     "state-province": null,
     domains: ["clsbe.lisboa.ucp.pt"],
-    name: "Cat\xF3lica Lisbon School of Business &amp; Economics",
+    name: "Cat\xF3lica Lisbon School of Business & Economics",
     web_pages: ["https://www.clsbe.lisboa.ucp.pt/"]
   },
   {
@@ -79353,7 +79278,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["https://tamut.edu"],
-    name: "Texas A&amp;M University-Texarkana",
+    name: "Texas A&M University-Texarkana",
     alpha_two_code: "US",
     "state-province": null,
     domains: ["ace.tamut.edu"],
@@ -79969,7 +79894,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["https://www.idti.edu/"],
-    name: "Island Drafting &amp; Technical Institute",
+    name: "Island Drafting & Technical Institute",
     alpha_two_code: "US",
     "state-province": "NY",
     domains: ["idti.edu"],
@@ -80257,7 +80182,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["https://www.btc.ac.uk/"],
-    name: "Bridgwater &amp; Taunton College",
+    name: "Bridgwater & Taunton College",
     alpha_two_code: "GB",
     "state-province": null,
     domains: ["btc.ac.uk"],
@@ -80401,7 +80326,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["https://dewv.edu"],
-    name: "Davis &amp; Elkins College",
+    name: "Davis & Elkins College",
     alpha_two_code: "US",
     "state-province": null,
     domains: ["dewv.edu"],
@@ -80721,7 +80646,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["https://www.gnipst.ac.in/"],
-    name: "Guru Nanak Institute of Pharmaceutical Science &amp; Technology",
+    name: "Guru Nanak Institute of Pharmaceutical Science & Technology",
     alpha_two_code: "IN",
     "state-province": null,
     domains: ["gnipst.ac.in"],
@@ -80729,7 +80654,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["https://www.gnidsr.ac.in/"],
-    name: "Guru Nanak Institute of Dental Sciences &amp; Research",
+    name: "Guru Nanak Institute of Dental Sciences & Research",
     alpha_two_code: "IN",
     "state-province": null,
     domains: ["gnidsr.ac.in"],
@@ -80737,7 +80662,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["https://www.surtech.edu.in/"],
-    name: "Dr. Sudhir Chandra Sur Institute of Technology &amp; Sports Complex",
+    name: "Dr. Sudhir Chandra Sur Institute of Technology & Sports Complex",
     alpha_two_code: "IN",
     "state-province": null,
     domains: ["surtech.edu.in"],
@@ -80745,7 +80670,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["https://jisiasr.org/"],
-    name: "JIS Institute of Advanced Studies &amp; Research",
+    name: "JIS Institute of Advanced Studies & Research",
     alpha_two_code: "IN",
     "state-province": null,
     domains: ["jisiasr.org"],
@@ -80753,7 +80678,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["https://jismsr.org/"],
-    name: "JIS School of Medical Science &amp; Research",
+    name: "JIS School of Medical Science & Research",
     alpha_two_code: "IN",
     "state-province": null,
     domains: ["jismsr.org"],
@@ -80777,7 +80702,7 @@ var collegeData_default = [
   },
   {
     web_pages: ["https://www.gkcem.ac.in/"],
-    name: "Greater Kolkata College of Engineering &amp; Management",
+    name: "Greater Kolkata College of Engineering & Management",
     alpha_two_code: "IN",
     "state-province": null,
     domains: ["gkcem.ac.in"],
@@ -81596,7 +81521,7 @@ var College = class {
    * Get all the colleges based on a country code
    *
    * @author jez020
-   * @param {Array.&lt;CountryCodes>} regionCode an array of 2 letters country 
+   * @param {Array.<CountryCodes>} regionCode an array of 2 letters country 
    * codes to include in the data
    * @memberof College
    * @returns {collegeDataInterface[]} Returns an array of colleges 
@@ -81628,7 +81553,7 @@ var College = class {
   getCollege(name = "University of California, San Diego") {
     if (typeof name != "string") throw new TypeError("The college name must be a string. Received: " + typeof name);
     let selectedCollegeData = [];
-    for (let i = 0; i &lt; this.collegeData.length; i++) {
+    for (let i = 0; i < this.collegeData.length; i++) {
       if (this.collegeData[i]["name"] == name) {
         selectedCollegeData.push(this.collegeData[i]);
       }
@@ -81637,30 +81562,7 @@ var College = class {
   }
 };
 var index_default = College;
-//# sourceMappingURL=index.js.map</code></pre>
-        </article>
-    </section>
-
-
-
-
-    
-    
-</div>
-
-<br class="clear">
-
-<footer>
-    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.4</a> on Wed Jan 22 2025 23:15:43 GMT-0800 (Pacific Standard Time) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
-</footer>
-
-<script>prettyPrint();</script>
-<script src="scripts/polyfill.js"></script>
-<script src="scripts/linenumber.js"></script>
-
-<script src="scripts/search.js" defer></script>
-
-
-
-</body>
-</html>
+export {
+  index_default as default
+};
+//# sourceMappingURL=index.mjs.map

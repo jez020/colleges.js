@@ -3,7 +3,7 @@
  * 
  * @author jez020
  */
-module.exports = {
+
     /** 
      * Country names object using 2-letter country codes to reference country name
      * ISO 3166 Alpha-2 Format: [2 letter Country Code]: [Country Name]
@@ -11,7 +11,7 @@ module.exports = {
      * 
      * @author jez020
     */
-    countryListAlpha2: {
+    const countryListAlpha2 : Object = {
         "AF": "Afghanistan",
         "AL": "Albania",
         "DZ": "Algeria",
@@ -261,14 +261,20 @@ module.exports = {
         "ZM": "Zambia",
         "ZW": "Zimbabwe",
         "AX": "Åland Islands"
-    },
+    }
+
     /**
      * Check if every item of array is the type
      * 
      * @author jez020
-     * @param {Array} arr The array to check
+     * @param {Array<any>} arr The array to check
      * @param {String} type Check the type to check
-     * @returns true or false
+     * @returns {boolean} true or false
      */
-    isArrayType: (arr, type) => arr.every(i => typeof i == type)
-};
+    export function isArrayType (arr : Array<any>, type: string)
+    {
+        arr.every(i => typeof i == type)
+    }
+
+
+export { countryListAlpha2 };

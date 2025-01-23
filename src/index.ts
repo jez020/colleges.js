@@ -36,8 +36,9 @@
  */
 
 
-
-const { countryListAlpha2, isArrayType } = require("./definitions");
+import { collegeDataInterface } from './intefaces';
+import { countryListAlpha2, isArrayType } from './definitions';
+import collegedata from "./collegeData.json"
 
 /**
  * The College class, containing all the neccessary methods
@@ -50,7 +51,7 @@ class College {
      * @author Hipo
      * @memberof College
      */
-    collegeData = require("./collegeData.json");
+    collegeData : collegeDataInterface = collegedata;
     /**
      * All the 2 characters country codes
      *
@@ -72,10 +73,11 @@ class College {
      * Get all the colleges based on a country code
      *
      * @author jez020
-     * @param {Array.<CountryCodes>} regionCode an array of 2 letters country codes to 
-     * include in the data
+     * @param {Array.<CountryCodes>} regionCode an array of 2 letters country 
+     * codes to include in the data
      * @memberof College
-     * @returns {Object} Returns an object of colleges belonging to 
+     * @returns {collegeDataInterface[]} Returns an array of colleges 
+     * belonging to the countries provided
      */
     getRegion(regionCode = ["US"]) {
         // removes duplicates from region code
@@ -84,18 +86,19 @@ class College {
         if(typeof regionCode != "object") 
             throw new TypeError("regionCode needs to be a array. Received: " + 
             typeof regionCode);
-        // Check if every region in regionCode is a string
-        if(!isArrayType(regionCode, "string"))
-            throw new TypeError("Every item of regionCode needs to be a string.")
+            if(!regionCode){
+                throw new TypeError("Every item of regionCode needs to" + 
+                    " be a string.")
+            }
 
         // Set every term of the given regionCode to an uppercase string
         regionCode = regionCode.map(code => code.toUpperCase());
 
         // Finding every college within the given country code and adds it to
         // the collegesInRegion array
-        let collegesInRegion = [];
+        let collegesInRegion : any[] = [];
         for (let i in this.collegeData){
-            if(regionCode.includes(this.collegeData[i]["alpha_two_code"]
+            if(regionCode.includes(this.collegeData![i]["alpha_two_code"]
             .toUpperCase())){
                 collegesInRegion.push(this.collegeData[i]);
             }
@@ -111,7 +114,7 @@ class College {
      * @author jez020
      * @param {String} name The name of the college, case sensitive
      * @memberof College
-     * @returns {Array.<Object>} An array of objects containing the college data
+     * @returns {collegeDataInterface[]} An array of objects containing the college data
      */
     getCollege (name = "University of California, San Diego") {
         // Making sure the type is correct
@@ -120,8 +123,8 @@ class College {
 
         // Find every college that matches the input name and insert it to the
         // selectedCollegeData array
-        let selectedCollegeData = [];
-        for (let i in this.collegeData){
+        let selectedCollegeData : any[] = [];
+        for (let i : number = 0; i < this.collegeData.length; i++){
             if ( this.collegeData[i]["name"] == name ){
                 selectedCollegeData.push(this.collegeData[i])
             }
@@ -133,4 +136,4 @@ class College {
 
 }
 
-module.exports = College
+export default College
