@@ -81,7 +81,9 @@ export class College {
      * @returns {collegeDataInterface} Returns an array of colleges 
      * belonging to the countries provided
      */
-    getRegion(regionCode = ["US"]) {
+    getRegion(regionCode = ["US"])  :
+        collegeDataInterface 
+    {
         // removes duplicates from region code
         regionCode = [...new Set(regionCode)];
         // Check if the regionCode is an object
@@ -117,7 +119,9 @@ export class College {
      * @param {String} name The name of the college, case sensitive
      * @returns {collegeDataInterface} An array of objects containing the college data
      */
-    getCollege (name = "University of California, San Diego") {
+    getCollege (name = "University of California, San Diego") :
+        collegeDataInterface 
+    {
         // Making sure the type is correct
         if(typeof name != "string") throw new TypeError("The college name " + 
             "must be a string. Received: " + typeof name);
