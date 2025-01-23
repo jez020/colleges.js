@@ -44,29 +44,32 @@ import collegedata from "./collegeData.json"
  * The College class, containing all the neccessary methods
  * @author jez020
  */
-class College {
+export class College {
     /**
      * Get the original college data in JSON
      *
      * @author Hipo
-     * @memberof College
      */
     collegeData : collegeDataInterface = collegedata;
     /**
      * All the 2 characters country codes
      *
      * @author jez020
-     * @memberof College
      */
     countryCode = Object.keys(countryListAlpha2).map((key) => key);
 
     /**
-     * Creates an instance of College.
+     * Initiates an instance of College
+     * 
      * @author jez020
-     * @memberof College
+     * @param {collegeDataInterface} customCollegeData Custom college data, 
+     * defaults to the built in json.
      */
-    constructor(){
-        
+    constructor(customCollegeData : collegeDataInterface = collegedata)
+    {
+        if(customCollegeData){
+            this.collegeData = customCollegeData;
+        }
     }
 
     /**
@@ -75,7 +78,6 @@ class College {
      * @author jez020
      * @param {Array.<CountryCodes>} regionCode an array of 2 letters country 
      * codes to include in the data
-     * @memberof College
      * @returns {collegeDataInterface[]} Returns an array of colleges 
      * belonging to the countries provided
      */
@@ -113,7 +115,6 @@ class College {
      * Get the colleges with the same name as the input
      * @author jez020
      * @param {String} name The name of the college, case sensitive
-     * @memberof College
      * @returns {collegeDataInterface[]} An array of objects containing the college data
      */
     getCollege (name = "University of California, San Diego") {
@@ -124,7 +125,7 @@ class College {
         // Find every college that matches the input name and insert it to the
         // selectedCollegeData array
         let selectedCollegeData : any[] = [];
-        for (let i : number = 0; i < this.collegeData.length; i++){
+        for (let i in this.collegeData){
             if ( this.collegeData[i]["name"] == name ){
                 selectedCollegeData.push(this.collegeData[i])
             }
@@ -135,5 +136,3 @@ class College {
     }
 
 }
-
-export default College

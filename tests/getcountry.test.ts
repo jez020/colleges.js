@@ -1,4 +1,4 @@
-import College from "../src";
+import { College } from "../src";
 
 const college = new College();
 

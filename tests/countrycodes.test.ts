@@ -1,4 +1,4 @@
-import College from "../src";
+import { College } from "../src";
 
 test('Returns an object for countrycodes', () => {
   const college = new College();

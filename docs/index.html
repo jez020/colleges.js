@@ -1,99 +1,12 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    
-    <meta charset="utf-8">
-    <title>Home - Documentation</title>
-    
-    
-    <script src="scripts/prettify/prettify.js"></script>
-    <script src="scripts/prettify/lang-css.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <link type="text/css" rel="stylesheet" href="styles/prettify.css">
-    <link type="text/css" rel="stylesheet" href="styles/jsdoc.css">
-    <script src="scripts/nav.js" defer></script>
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-
-<input type="checkbox" id="nav-trigger" class="nav-trigger" />
-<label for="nav-trigger" class="navicon-button x">
-  <div class="navicon"></div>
-</label>
-
-<label for="nav-trigger" class="overlay"></label>
-
-<nav >
-    
-    <input type="text" id="nav-search" placeholder="Search" />
-    
-    
-    <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="College.College.html">College</a></li></ul>
-    
-</nav>
-
-<div id="main">
-    
-
-    
-
-
-
-    
-
-
-    <section class="package">
-        <h3> </h3>		
-    </section>
-
-
-
-
-
-
-
-
-
-    
-
-
-
-    <section class="readme usertext">
-        <article><h1>colleges.js</h1>
-<p>This module is essentially a database of all the countries in the world.</p>
-<h2>Documentation</h2>
-<p>You can find the documentation on
+<!DOCTYPE html><html class="default" lang="en" data-base="."><head><meta charset="utf-8"/><meta http-equiv="x-ua-compatible" content="IE=edge"/><title>colleges.js</title><meta name="description" content="Documentation for colleges.js"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="stylesheet" href="assets/style.css"/><link rel="stylesheet" href="assets/highlight.css"/><script defer src="assets/main.js"></script><script async src="assets/icons.js" id="tsd-icons-script"></script><script async src="assets/search.js" id="tsd-search-script"></script><script async src="assets/navigation.js" id="tsd-nav-script"></script><link rel="stylesheet" href="assets/varvara.css"/><link rel="stylesheet" href="assets/overrides.css"/></head><body><script>document.documentElement.dataset.theme = localStorage.getItem("tsd-theme") || "os";</script><div class="container container-main"><header class="page-toolbar"><div class="search" id="tsd-search"><div class="field va-button-group"><div class="va-button-group va-button-group--horizontal"><a href="index.html" class="va-button"><b>colleges.js</b></a><label for="tsd-search-field" class="va-button"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><use href="assets/icons.svg#icon-search"></use></svg></label><a href="#" class="va-button" data-toggle="menu" aria-label="Menu"><svg width="16" height="16" viewBox="0 0 16 16" fill="none"><use href="assets/icons.svg#icon-menu"></use></svg></a></div><input type="text" id="tsd-search-field" class="va-input" placeholder="Search" aria-label="Search"/></div><ul class="results"><li class="state loading">Preparing search index...</li><li class="state failure">The search index is not available</li></ul></div><div class="navigation-links va-button-group"></div></header><div class="col-content"><div class="tsd-page-title"><h1>colleges.js</h1></div><div class="tsd-panel tsd-typography"><a id="collegesjs" class="tsd-anchor"></a><h1 class="tsd-anchor-link">colleges.js<a href="#collegesjs" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h1><p>This module is essentially a database of universities accross all the countries
+in the world.</p>
+<a id="documentation" class="tsd-anchor"></a><h2 class="tsd-anchor-link">Documentation<a href="#documentation" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h2><p>You can find the documentation on
 <a href="https://jez020.github.io/colleges.js/index.html">this website</a></p>
-<h2>Special Thanks</h2>
-<p><a href="https://github.com/Hipo">Hipo</a> -
-<a href="https://github.com/Hipo/university-domains-list/blob/master/world_universities_and_domains.json">Lists of Universities</a></p></article>
-    </section>
+<a id="requirements" class="tsd-anchor"></a><h2 class="tsd-anchor-link">Requirements<a href="#requirements" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h2><p>This package currently only supports typescript.
+Please see example below and the documentation for usage.</p>
+<a id="example" class="tsd-anchor"></a><h2 class="tsd-anchor-link">Example<a href="#example" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h2><pre><code class="js"><span class="hl-0">// Importing the module</span><br/><span class="hl-1">import</span><span class="hl-2"> { </span><span class="hl-3">College</span><span class="hl-2"> } </span><span class="hl-1">from</span><span class="hl-2"> </span><span class="hl-4">&#39;colleges.js&#39;</span><span class="hl-2">;</span><br/><br/><span class="hl-0">// Initializing a college instance using default database</span><br/><span class="hl-5">const</span><span class="hl-2"> </span><span class="hl-6">college</span><span class="hl-2"> = </span><span class="hl-5">new</span><span class="hl-2"> </span><span class="hl-7">College</span><span class="hl-2">();</span><br/><br/><span class="hl-0">// Initializing a college instance using custom database</span><br/><span class="hl-0">// Same methods apply to both constructor</span><br/><span class="hl-5">const</span><span class="hl-2"> </span><span class="hl-6">customCollege</span><span class="hl-2"> = </span><span class="hl-5">new</span><span class="hl-2"> </span><span class="hl-7">College</span><span class="hl-2">(</span><br/><span class="hl-2">  [{</span><br/><span class="hl-2">    </span><span class="hl-3">name:</span><span class="hl-2"> </span><span class="hl-4">&quot;University of Disneyland&quot;</span><span class="hl-2">,</span><br/><span class="hl-2">    </span><span class="hl-3">alpha_two_code:</span><span class="hl-2"> </span><span class="hl-4">&quot;US&quot;</span><span class="hl-2">,</span><br/><span class="hl-2">    </span><span class="hl-3">country:</span><span class="hl-2"> </span><span class="hl-4">&quot;United States&quot;</span><span class="hl-2">,</span><br/><span class="hl-2">    </span><span class="hl-3">web_pages:</span><span class="hl-2"> [</span><span class="hl-4">&quot;https://uod.edu&quot;</span><span class="hl-2">],</span><br/><span class="hl-2">    </span><span class="hl-3">domains:</span><span class="hl-2"> [</span><span class="hl-4">&quot;uod.edu&quot;</span><span class="hl-2">],</span><br/><span class="hl-2">    </span><span class="hl-4">&quot;state-province&quot;</span><span class="hl-3">:</span><span class="hl-2"> </span><span class="hl-5">null</span><br/><span class="hl-2">  },]</span><br/><span class="hl-2">);</span><br/><br/><span class="hl-0">// get full list of college database</span><br/><span class="hl-3">console</span><span class="hl-2">.</span><span class="hl-7">log</span><span class="hl-2">(</span><span class="hl-3">college</span><span class="hl-2">.</span><span class="hl-3">collegeData</span><span class="hl-2">);</span><br/><br/><span class="hl-0">// get full list of 2 character country codes</span><br/><span class="hl-3">console</span><span class="hl-2">.</span><span class="hl-7">log</span><span class="hl-2">(</span><span class="hl-3">customCollege</span><span class="hl-2">.</span><span class="hl-3">countryCode</span><span class="hl-2">);</span><br/><br/><span class="hl-0">// get colleges within specified regions (defaults to US)</span><br/><span class="hl-3">console</span><span class="hl-2">.</span><span class="hl-7">log</span><span class="hl-2">(</span><span class="hl-3">college</span><span class="hl-2">.</span><span class="hl-7">getRegion</span><span class="hl-2">([</span><span class="hl-4">&quot;US&quot;</span><span class="hl-2">, </span><span class="hl-4">&quot;UK&quot;</span><span class="hl-2">]));</span><br/><br/><span class="hl-0">// get a specific college by it&#39;s name (case sensitive)</span><br/><span class="hl-3">console</span><span class="hl-2">.</span><span class="hl-7">log</span><span class="hl-2">(</span><span class="hl-3">customCollege</span><span class="hl-2">.</span><span class="hl-7">getCollege</span><span class="hl-2">(</span><span class="hl-4">&quot;University of Disneyland&quot;</span><span class="hl-2">));</span>
+</code><button type="button">Copy</button></pre>
 
-
-
-
-
-
-    
-    
-</div>
-
-<br class="clear">
-
-<footer>
-    Documentation generated by <a href="https://github.com/jsdoc3/jsdoc">JSDoc 4.0.4</a> on Wed Jan 22 2025 23:15:43 GMT-0800 (Pacific Standard Time) using the <a href="https://github.com/clenemt/docdash">docdash</a> theme.
-</footer>
-
-<script>prettyPrint();</script>
-<script src="scripts/polyfill.js"></script>
-<script src="scripts/linenumber.js"></script>
-
-<script src="scripts/search.js" defer></script>
-
-
-
-</body>
-</html>
+<a id="special-thanks" class="tsd-anchor"></a><h2 class="tsd-anchor-link">Special Thanks<a href="#special-thanks" aria-label="Permalink" class="tsd-anchor-icon"><svg viewBox="0 0 24 24"><use href="assets/icons.svg#icon-anchor"></use></svg></a></h2><p><a href="https://github.com/Hipo">Hipo</a> -
+<a href="https://github.com/Hipo/university-domains-list/blob/master/world_universities_and_domains.json">Lists of Universities</a></p>
+</div></div><div class="col-sidebar"><div class="page-menu"><div class="va-button-group"><details class="va-collapse settings tsd-accordion"><summary>Settings</summary><div class="tsd-filter-visibility"><span class="settings-label">Member Visibility</span><ul id="tsd-filter-options"><li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-protected" name="protected"/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Protected</span></label></li><li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-inherited" name="inherited" checked/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>Inherited</span></label></li><li class="tsd-filter-item"><label class="tsd-filter-input"><input type="checkbox" id="tsd-filter-external" name="external"/><svg width="32" height="32" viewBox="0 0 32 32" aria-hidden="true"><rect class="tsd-checkbox-background" width="30" height="30" x="1" y="1" rx="6" fill="none"></rect><path class="tsd-checkbox-checkmark" d="M8.35422 16.8214L13.2143 21.75L24.6458 10.25" stroke="none" stroke-width="3.5" stroke-linejoin="round" fill="none"></path></svg><span>External</span></label></li></ul></div><div class="va-select-group"><label>Theme</label><select id="tsd-theme" class="va-select"><option value="os">OS</option><option value="light">Light</option><option value="dark">Dark</option></select></div></details><details class="va-collapse page-navigation tsd-accordion"><summary>On This Page</summary><a href="#collegesjs" class=" va-button" style="padding-left: 36px"><span>colleges.js</span></a><a href="#documentation" class=" va-button" style="padding-left: 54px"><span>Documentation</span></a><a href="#requirements" class=" va-button" style="padding-left: 54px"><span>Requirements</span></a><a href="#example" class=" va-button" style="padding-left: 54px"><span>Example</span></a><a href="#special-thanks" class=" va-button" style="padding-left: 54px"><span>Special Thanks</span></a></details></div></div><div class="site-menu"><nav class="va-button-group"><details class="va-collapse tsd-accordion"><summary><a href="modules.html">Modules</a></summary><a href="./modules/collegeData.json.html" class="va-button false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" class="tsd-kind-icon"><use href="#icon-2"></use></svg>collegeData.json</a><a href="./modules/definitions.html" class="va-button false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" class="tsd-kind-icon"><use href="#icon-2"></use></svg>definitions</a><a href="./modules/index.html" class="va-button va-button--active"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" class="tsd-kind-icon"><use href="#icon-2"></use></svg>index</a><a href="./modules/intefaces.html" class="va-button false"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" class="tsd-kind-icon"><use href="#icon-2"></use></svg>intefaces</a></details></nav></div></div></div><footer><div class="container"><p class="tsd-generator">Generated using <a href="https://typedoc.org/" target="_blank">TypeDoc</a> &amp; <a href="https://varvara.js.org/" target="_blank">Varvara CSS</a></p></div></footer><div class="overlay"></div></body></html>

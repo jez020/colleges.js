@@ -1,12 +1,11 @@
-type collegeDataInterface = Type[];
-interface Type {
+type collegeDataInterface = {
     "name": string;
     "domains": string[];
     "web_pages": string[];
     "country": string;
     "alpha_two_code": string;
     "state-province": string | null;
-}
+}[];
 
 /**
  * @typedef { "AF" | "AL" | "DZ" | "AS" | "AD" | "AO" | "AI" | "AQ" | "AG" |
@@ -53,29 +52,25 @@ declare class College {
      * Get the original college data in JSON
      *
      * @author Hipo
-     * @memberof College
      */
     collegeData: collegeDataInterface;
     /**
      * All the 2 characters country codes
      *
      * @author jez020
-     * @memberof College
      */
     countryCode: string[];
     /**
      * Creates an instance of College.
      * @author jez020
-     * @memberof College
      */
-    constructor();
+    constructor(customCollegeData?: collegeDataInterface);
     /**
      * Get all the colleges based on a country code
      *
      * @author jez020
      * @param {Array.<CountryCodes>} regionCode an array of 2 letters country
      * codes to include in the data
-     * @memberof College
      * @returns {collegeDataInterface[]} Returns an array of colleges
      * belonging to the countries provided
      */
@@ -84,10 +79,9 @@ declare class College {
      * Get the colleges with the same name as the input
      * @author jez020
      * @param {String} name The name of the college, case sensitive
-     * @memberof College
      * @returns {collegeDataInterface[]} An array of objects containing the college data
      */
     getCollege(name?: string): any[];
 }
 
-export { College as default };
+export { College };

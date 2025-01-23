@@ -20,7 +20,7 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 // src/index.ts
 var index_exports = {};
 __export(index_exports, {
-  default: () => index_default
+  College: () => College
 });
 module.exports = __toCommonJS(index_exports);
 
@@ -81525,23 +81525,23 @@ var College = class {
   /**
    * Creates an instance of College.
    * @author jez020
-   * @memberof College
    */
-  constructor() {
+  constructor(customCollegeData = collegeData_default) {
     /**
      * Get the original college data in JSON
      *
      * @author Hipo
-     * @memberof College
      */
     this.collegeData = collegeData_default;
     /**
      * All the 2 characters country codes
      *
      * @author jez020
-     * @memberof College
      */
     this.countryCode = Object.keys(countryListAlpha2).map((key) => key);
+    if (customCollegeData) {
+      this.collegeData = customCollegeData;
+    }
   }
   /**
    * Get all the colleges based on a country code
@@ -81549,7 +81549,6 @@ var College = class {
    * @author jez020
    * @param {Array.<CountryCodes>} regionCode an array of 2 letters country 
    * codes to include in the data
-   * @memberof College
    * @returns {collegeDataInterface[]} Returns an array of colleges 
    * belonging to the countries provided
    */
@@ -81573,13 +81572,12 @@ var College = class {
    * Get the colleges with the same name as the input
    * @author jez020
    * @param {String} name The name of the college, case sensitive
-   * @memberof College
    * @returns {collegeDataInterface[]} An array of objects containing the college data
    */
   getCollege(name = "University of California, San Diego") {
     if (typeof name != "string") throw new TypeError("The college name must be a string. Received: " + typeof name);
     let selectedCollegeData = [];
-    for (let i = 0; i < this.collegeData.length; i++) {
+    for (let i in this.collegeData) {
       if (this.collegeData[i]["name"] == name) {
         selectedCollegeData.push(this.collegeData[i]);
       }
@@ -81587,5 +81585,8 @@ var College = class {
     return selectedCollegeData;
   }
 };
-var index_default = College;
+// Annotate the CommonJS export names for ESM import in node:
+0 && (module.exports = {
+  College
+});
 //# sourceMappingURL=index.js.map
